@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/mainFragmentLayout">
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:id="@+id/txt_main_heading"
+            android:text="Hello this is Fragment Topic Programs"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt_heading1"
+            android:text="Assignment Level Basic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/B2task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="B2 Task"
+                android:layout_marginBottom="15dp" />
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:id="@+id/txt_heading2"
+            android:text="Assignment Level Intermidiate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/I1task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I1 Task"
+                android:layout_marginBottom="15dp" />
+
+            <Button
+                android:id="@+id/I2task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I2 Task"
+                android:layout_marginBottom="15dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/txt_heading3"
+            android:text="Assignment Level Advance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="25dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/A1task"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A1 Task"
+                android:layout_marginBottom="15dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
